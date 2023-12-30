@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>karthik chinchankar</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS v5.2.1 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<!-- place navbar here -->
+			<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+					
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav ms-auto">
+							<a class="nav-link active" aria-current="page" href="#home">Home</a>
+							<a class="nav-link" href="#about">About</a>
+							<a class="nav-link" href="#services">Services</a>
+							<a class="nav-link" href="#projects">Projects</a>
+							<a class="nav-link" href="#testimonials">Testimonials</a>
+							<a class="nav-link" href="#certifications">Certifications</a>
+							<a class="nav-link" href="#contact">Contact</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+					
+		</header> 
+		<main>
+			<section class="section intro-section" style="position: sticky;" id="home">
+				<div class="container">
+				  <div class="row align-items-center">
+					<div class="col-md-6 intro-text">
+					  <h1>Welcome to My Portfolio</h1>
+					  <p id="typed-text"></p>
+					  <button class="btn btn-primary">Hire Me</button>
+					</div>
+					<div class="col-md-6 text-center">
+					  <img src="c:\Users\Kavya KC\Downloads\pht.jpeg" alt="Your Image" class="intro-img">
+					</div>
+				  </div>
+				</div>
+			  </section>
+			  <script>
+				const text = "Hey there! I'm karhtik chinchankar, a passionate web developer on a journey of constant growth. Over the past year, I've delved into cutting-edge web tech and design trends, honing my skills in HTML5,CSS3,JavaScript,Bootstrap5,JQuery,Angular.Js,Node.js From revamping interfaces to building robust backend solutions, my recent experiences have fueled my expertise in crafting seamless online experiences. Dive into this portfolio to see the culmination of my latest ventures!";
+				let index = 0;
+			
+				function typeWriter() {
+					if (index < text.length) {
+						document.getElementById("typed-text").innerHTML += text.charAt(index);
+						index++;
+						setTimeout(typeWriter, 10); // Adjust typing speed here (in milliseconds)
+					}
+				}
+			
+				// Call the typing function
+				typeWriter();
+			</script>
+			
+			  
+			  <section class="section about-section"  id="about"> 
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 text-center">
+							<h2 class="mb-4">About Me</h2>
+							<p class="lead">
+								With years of experience in the tech industry, I have developed a deep passion for technology and its potential to change lives. My journey began in [Your Starting Year], driven by curiosity and a desire to create impactful digital solutions.
+							</p>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-md-4">
+							<div class="card border-0 rounded shadow-sm p-4 text-center">
+								<i class="bi bi-clock-history fs-2 mb-3 text-primary"></i>
+								<h3>My Journey</h3>
+								<p class="text-muted">From a curious learner to a seasoned professional, my journey is filled with continuous learning and evolving expertise.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card border-0 rounded shadow-sm p-4 text-center">
+								<i class="bi bi-people fs-2 mb-3 text-primary"></i>
+								<h3>Collaborations</h3>
+								<p class="text-muted">I believe in the power of teamwork and have collaborated with diverse teams to bring innovative ideas to life.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card border-0 rounded shadow-sm p-4 text-center">
+								<i class="bi bi-award fs-2 mb-3 text-primary"></i>
+								<h3>Achievements</h3>
+								<p class="text-muted">Recognized for excellence in various projects and initiatives, reflecting my commitment to quality and innovation.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</section>
+		
+
+			<section class="section services-section"  id="services">
+				<div class="container">
+				  <div class="row justify-content-center">
+					<div class="col-lg-8 text-center">
+					  <h2 class="mb-4">My Services</h2>
+					  <p class="lead">
+						Offering a range of services to help your business grow with digital solutions tailored to your needs.
+					  </p>
+					</div>
+				  </div>
+				  <div class="row mt-5">
+					<div class="col-md-4">
+					  <div class="service-card p-4 text-center">
+						<i class="bi bi-laptop fs-2 mb-3"></i>
+						<h3>Web Design</h3>
+						<p>Crafting aesthetically pleasing and user-friendly website designs that engage and attract customers.</p>
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <div class="service-card p-4 text-center">
+						<i class="bi bi-bar-chart fs-2 mb-3"></i>
+						<h3>SEO Optimization</h3>
+						<p>Enhancing your website's visibility in search engines to boost organic traffic and reach a wider audience.</p>
+					  </div>
+					</div>
+					<div class="col-md-4">
+					  <div class="service-card p-4 text-center">
+						<i class="bi bi-phone fs-2 mb-3"></i>
+						<h3>Mobile Development</h3>
+						<p>Building responsive and high-performing mobile applications tailored to your specific business needs.</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+			  
+			  <section class="section projects-section"  id="projects">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 text-center">
+							<h2 class="mb-4">My Projects</h2>
+							<p class="lead">A selection of projects that showcase my skills and expertise.</p>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<!-- Project 1 -->
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="1.jpeg" alt="Project Image" class="img-fluid">
+								<div class="project-info">
+									<h5>Weather Forecast Dashboard</h5>
+									<p>A web-based weather dashboard providing real-time weather updates, forecasts, and location-based information.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="2.jpeg" alt="Project Image" class="img-fluid" width="512" height="512">
+								<div class="project-info">
+									<h5>QuickScan QR Code Generator</h5>
+									<p>A user-friendly tool that generates custom QR codes for URLs, text, or contact information, with options for personalization.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="3.jpeg" alt="Project Image" class="img-fluid">
+								<div class="project-info">
+									<h5> ImageOptim Compressor</h5>
+									<p>An efficient image compression web app that reduces file size without compromising on quality, supporting multiple image formats.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="4.jpeg" alt="Project Image" class="img-fluid">
+								<div class="project-info">
+									<h5>Online Quiz Platform</h5>
+									<p>An engaging quiz platform with user-generated content, real-time scoring, and social sharing capabilities.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="5.jpeg" alt="Project Image" class="img-fluid">
+								<div class="project-info">
+									<h5>Blogging Platform</h5>
+									<p>A platform for effortless blogging, featuring intuitive content creation, customization, and interactive engagement options.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="project-card">
+								<img src="6.jpeg" alt="Project Image" class="img-fluid">
+								<div class="project-info">
+									<h5>Social Media Dashboard</h5>
+									<p>A one-stop dashboard for managing and analyzing multiple social media accounts, enhancing user engagement and insight.</p>
+								</div>
+							</div>
+						</div>
+						<!-- More projects... -->
+					</div>
+				</div>
+			</section>
+
+			<section class="testimonial-section"  id="testimonials">
+				<div class="container">
+					<div class="testimonial-carousel">
+						<div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="testimonial-item">
+										<p class="testimonial-quote">"This is an amazing service! Highly recommend to anyone."</p>
+										<p class="testimonial-name">- Sajeevini</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="testimonial-item">
+										<p class="testimonial-quote">"Absolutely wonderful experience, the team is very professional."</p>
+										<p class="testimonial-name">- Shrishail Pujar</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="testimonial-item">
+										<p class="testimonial-quote">"Absolutely wonderful experience, the team is very professional."</p>
+										<p class="testimonial-name">- Murugendra Shetty</p>
+									</div>
+								</div>
+								<!-- Add more carousel items as needed -->
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Certifications Section -->
+<section class="section certifications-section"  id="certifications">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="mb-4">My Certifications</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Certification Card 1 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#certModal1">
+                    <img src="c1.png" class="card-img-top" alt="Certificate 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Certification</h5>
+                        <p class="card-text">Completed a rigorous 40-hour Python programming certification at Ethnotech Academy Solutions, gaining expertise in Python development and enhancing problem-solving skills.</p>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#certModal2">
+                    <img src="c2.jpeg" class="card-img-top" alt="Certificate 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Negotiation Skills</h5>
+                        <p class="card-text">Certified in Negotiation Skills: Equipped with proven strategies to drive successful outcomes in negotiations, fostering collaboration and win-win solutions.</p>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#certModal3">
+                    <img src="c3.png" class="card-img-top" alt="Certificate 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Time Management</h5>
+                        <p class="card-text">Time Management Certification Completed: Gained expert strategies in productivity and efficiency, enhancing personal and professional time management skills.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Certification Modal 1 -->
+<div class="modal fade" id="certModal1" tabindex="-1" aria-labelledby="certModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel1">Python Programming</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="c1.png" class="img-fluid" alt="Certificate 1">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Certification Modal 1 -->
+<div class="modal fade" id="certModal2" tabindex="-1" aria-labelledby="certModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel1">Negotiation Skills</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="c2.png" class="img-fluid" alt="Certificate 1">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Certification Modal 1 -->
+<div class="modal fade" id="certModal3" tabindex="-1" aria-labelledby="certModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel1">Time Management</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="c3.png" class="img-fluid" alt="Certificate 1">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Repeat Modal for other certificates as needed -->
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section bg-light py-5"  id="contact">
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-8 text-center">
+                <h2 class="mb-4">Get in Touch</h2>
+                <p class="text-muted">Feel free to drop us a message. We'd love to hear from you!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <!-- Contact Form -->
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+		</main>
+		<!-- Footer Section -->
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <!-- About Us -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>We are dedicated to providing...</p>
+            </div>
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+					<li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Contact Us -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Email: karthik@gmail.com</p>
+                <p>Phone: +91 9164XXXXXX</p>
+            </div>
+        </div>
+        <hr>
+        <!-- Social Icons -->
+        <div class="text-center">
+            <a href="#"><i class="bi bi-facebook mx-3"></i></a>
+            <a href="#"><i class="bi bi-twitter mx-3"></i></a>
+            <a href="#"><i class="bi bi-instagram mx-3"></i></a>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+            <p>&copy; karthik chinchankar. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+		<!-- Bootstrap JavaScript Libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous">
+	    </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous">
+	</script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
+</body>
+</html>
+	

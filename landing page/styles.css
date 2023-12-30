@@ -1,0 +1,301 @@
+.navbar-custom {
+    background: linear-gradient(45deg, #d6bbbb, #111008, #040c02); /* Gradient background */
+    position: fixed;
+    width: 100%;
+  }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem; /* Increased font size */
+  }
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #17a2b8;
+  }
+  /* Optional: Add padding to the navbar links for better spacing */
+  .navbar-custom .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .landing-section {
+    background-image: url('https://www.wallpapertip.com/wmimgs/167-1677724_technology-website-background-images-hd.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #130e0e;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  }
+  .landing-section h1 {
+    font-size: 4rem; /* Larger font size */
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Increased letter spacing */
+  }
+  .landing-section p {
+    font-size: 1.5rem; /* Larger font size */
+    line-height: 1.6; /* Improved line height for readability */
+    margin-bottom: 30px;
+  }
+  .landing-section .btn {
+    font-size: 1.2rem; /* Larger button text */
+    padding: 10px 30px; /* Increased button padding */
+  }
+
+   /* Custom styles */
+   .about-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background for the section */
+    color: #333; /* Dark text for contrast */
+  }
+  .about-section h2 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    margin-bottom: 30px;
+    font-weight: 700; /* Bold font weight for the heading */
+  }
+  .about-section p {
+    font-size: 1.2rem; /* Comfortable reading size for text */
+    line-height: 1.8; /* Spacing for readability */
+  }
+  .about-section .about-img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+
+  .services-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  .section-heading h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .section-heading p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  .service-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  .service-card .card-body {
+    padding: 40px;
+  }
+  .service-card h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  .service-card p {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+  }
+
+  /* Pricing Section */
+  .pricing-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+.pricing-heading h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pricing-heading p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.pricing-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.card-body {
+    padding: 40px;
+}
+.card-body p {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+}
+.card-footer {
+    background: none;
+    border: none;
+    text-align: center;
+}
+.btn-pricing {
+    color: #fff;
+    background-color: #9d50bb;
+    border-color: #9d50bb;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.btn-pricing:hover {
+    background-color: #6e48aa;
+    border-color: #6e48aa;
+}
+
+.portfolio-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background for the section */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+  }
+  .portfolio-heading {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+  .item-details {
+    padding: 20px;
+  }
+  .item-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .item-description {
+    font-size: 1.1rem;
+  }
+
+  /* Custom styles for Team Section */
+  .team-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .team-heading {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  .team-member {
+    margin-bottom: 30px;
+  }
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .team-member h3 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+  }
+  .team-member p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-carousel {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .carousel-item {
+    padding: 30px;
+  }
+  .testimonial-text {
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+  .testimonial-author {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #007bff;
+  }
+
+  .contact-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
+  .form-control:focus {
+    border-color: #007bff; /* Focus color */
+    box-shadow: none;
+  }
+  .form-control::placeholder {
+    color: #999; /* Placeholder color */
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+ 
+
+
+.about-section,
+.services-section,
+.pricing-section,
+.portfolio-section,
+.team-section,
+.testimonial-carousel,
+.contact-section {
+  /* Other styles... */
+  color: #fff; /* Text color */
+  background: linear-gradient(45deg, #0d101f, #03060a); /* Gradient background */
+  animation: backgroundAnimation 10s ease infinite; /* Apply background animation */
+}
